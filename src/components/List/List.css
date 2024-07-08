@@ -1,0 +1,84 @@
+#section-todo {
+	width: 100%;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+#form-todo {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 10px 15px;
+	border-radius: 5px 0 0 5px;
+	box-sizing: border-box;
+	border: 2px solid lightgreen;
+	background-color: rgb(40, 40, 40);
+	color: white;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type=submit] {
+	background-color: lightgreen;
+	color: black;
+	padding: 10px 15px;
+	border: 2px solid lightgreen;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: rgb(164, 258, 164);
+	border: 2px solid  rgb(164, 258, 164);
+	transition: 0.3s;
+}
+
+#btn-misc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+/* #section-list {
+    display: flex;
+    flex-direction: column;
+} */
+
+button {
+	color: black;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+    width: fit-content;
+}
+
+#btn-reset-all {
+	background-color: lightgreen;
+	border: 1px solid  lightgreen;
+}
+
+#btn-reset-all:hover {
+	background-color: rgb(164, 258, 164);
+	border: 1px solid  rgb(164, 258, 164);
+	transition: 0.3s;
+}
+
+.btn-delete {
+    background-color: lightcoral;
+	border: 1px solid  lightcoral;
+}
+
+.btn-delete:hover {
+    background-color: rgb(255, 143, 143);
+	border: 1px solid  rgb(255, 143, 143);
+}
